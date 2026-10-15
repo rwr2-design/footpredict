@@ -1,4 +1,4 @@
-import {getMatches} from "@/lib/data";
+import {getMatches} from "../lib/data";
 export const dynamic="force-dynamic";
 const pc=(x:number)=>Math.round(x*100)+"%";
 export default async function Home({searchParams}:{searchParams:Promise<{date?:string;q?:string}>}){
